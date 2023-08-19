@@ -1,0 +1,16 @@
+.thumbnail {
+  height: 100px;
+  width: 100px;
+}
+.thumbnail-btn {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+  margin-top: 13px;
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
