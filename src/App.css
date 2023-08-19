@@ -55,6 +55,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.highlights {
+  color: #fec653;
+  border-bottom: solid #fec653 3px;
+}
 .thumbnail-container {
   display: flex;
   flex-direction: row;

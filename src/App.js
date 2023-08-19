@@ -332,7 +332,9 @@ class App extends Component {
                   <li className="button-list" key={eachItem.tabId}>
                     <button
                       type="button"
-                      className="button"
+                      className={`button ${
+                        eachItem.tabId === category ? 'highlights' : ''
+                      }`}
                       onClick={() => this.selectButton(eachItem.tabId)}
                     >
                       {eachItem.displayText}
